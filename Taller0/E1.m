@@ -14,8 +14,8 @@ disp(X)
 left_matrix = 2*X+4*A;
 right_matrix = 3*B*A;
 
-disp("Matriz del lado izquierdo de la igualdad")
+disp("Matriz del lado izquierdo de la ecuación")
 disp(left_matrix)
 
-disp("Matriz del lado derecho de la igualdad")
+disp("Matriz del lado derecho de la ecuación")
 disp(right_matrix)

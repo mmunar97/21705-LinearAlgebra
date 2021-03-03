@@ -5,7 +5,6 @@ B = [1, 2;3, 4];
 
 % Si tenemos la ecuación 2X+4A=3*B*A, un cálculo sencillo nos muestra
 % que 2X = 3*B*A-4*A, por lo que X = 1/2*(3*B*A-4*A)
-% que X = 1/2*(3*B*A-4*A). Por lo tanto:
 
 X = 0.5*(3*B*A-4*A);
 disp("Matriz solución")

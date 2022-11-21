@@ -1,6 +1,6 @@
 function [L,U]=LUFact(A)
- n=length(_A(:,1));
- m=length(_A(1,:));
+ n=length(A(:,1));
+ m=length(A(1,:));
  if m != n 
   printf("different number of rows and columns"); 
   return;

@@ -31,7 +31,7 @@ function [x_grid, t_grid, U] = solve_crank_nicholson_heat_equation(L, T, I, J)
   
   for k=1:I-1
     % Diagonal principal
-    %B(i,i) = ## COMPLETAR ##
+    %B(k,k) = ## COMPLETAR ##
   endfor
   for k=2:I-1
     % Subdiagonal superior
